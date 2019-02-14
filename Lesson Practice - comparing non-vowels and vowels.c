@@ -8,6 +8,10 @@ main()
 		scanf(" %c",&input);
 		if(input == 'a' || input == 'e' || input =='i' || input == 'o' || input == 'u')
 			b +=1;
+		else if(input=='\n')
+			b=b;
+		else if(input=='!')
+			break;
 		else
 			c +=1;
 	}
