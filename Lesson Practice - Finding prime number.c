@@ -11,6 +11,6 @@ mian()
 		{
 		printf("Not a prime number");
 		break;
-		}
+		}ewfwf
 	}
 }
