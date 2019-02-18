@@ -17,6 +17,11 @@ int main ()
 	scanf("%d", &c);
 	
 	deta = (pow(b, 2) - (4*a*c));
+	if(deta==0)
+	{
+		x1=x2=(-b)/(2*a);
+		printf("x1 and x2 is %d",x1);
+	}
 	
 	else if ( deta > 0)
 	{
@@ -25,6 +30,10 @@ int main ()
 		
 		printf("The value of x2 = %.2f", x2);
 		printf("The value of x1 = %.2f", x1);
+	}
+	else
+	{
+		printf("The value is complex rule");
 	}
 
 }
