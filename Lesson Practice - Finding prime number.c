@@ -1,16 +1,21 @@
 #include<stdio.h>
 #include<math.h>
-mian()
+main()
 {
 	int n,i;
 	printf("Enter the number to check for prime number :");
 	scanf("%d",&n);
-	for(i=1;i<sqrt(n);i++)
+	for(i=2;i<n;i++)
 	{
-		if(i%2==0)
+		if(n%i==0)
 		{
 		printf("Not a prime number");
 		break;
-		}ewfwf
+		}
+		esle
+		{
+			if(n%(i+1)==0)
+			   printf("Is a prime number");
+		}
 	}
 }
